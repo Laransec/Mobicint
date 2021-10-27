@@ -13,3 +13,5 @@ Data is returned. The Label field is user generated and can contain sensitive in
 
 ![Returned Data](https://github.com/Laransec/Mobicint/blob/main/return_data_redacted.png)
 
+## Possible Impacts:
+Personal information can be compromised if the customer has entered it into the notes field. Further RCE may be possible as I was able to get a stack trace with some malformed input. I did not continue testing due to lack of documented security testing policies. 
